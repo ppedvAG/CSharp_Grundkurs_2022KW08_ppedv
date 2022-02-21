@@ -96,3 +96,5 @@ Console.WriteLine(Math.Round(round));
 Console.WriteLine(Math.Min(zahl1, zahl2)); //Kleinere Zahl von beiden wird geprinted
 Console.WriteLine(Math.Max(zahl1, zahl2)); //Größere Zahl von beiden wird geprinted
 #endregion
+
+LabLoesung.Execute();
