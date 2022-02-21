@@ -1,13 +1,6 @@
 ﻿# CSharp Grundkurs
 
-Die Unterlagen sind in 16 Module unterteilt. Der Kurs dauert vier Tage. Die Module haben zum Großteil Übungsaufgaben.
-
-Die LabLoesung.cs-Dateien enthalten die Lösungen. Die Labs der Module 7-11 und 15 basieren auf den vorhergehenden Labs. Hier sind jeweils die neuen
-Codezeilen zu finden. Die Teilnehmer sollen diese Aufgaben im Zweifelsfall auf Basis des Trainercodes des vorherigen Labs lösen.
-
-In den Demo- und Lab-Beispielen sind für mehr Übersichtlichkeit sämtliche Dateien zu Einer zusammengefasst.
-
-Letzte Änderung: 15.11.21 Klaas Hagge
+C# Grundkurs von 21.02.2022 bis 02.03.2022 (Teilzeit). Trainer: Lukas Kern (LukasK@ppedv.de).
 
 ## M00 | VORSTELLUNG
 
@@ -141,6 +134,3 @@ Letzte Änderung: 15.11.21 Klaas Hagge
 - [ ] Erweiterungsmethoden
 - [ ] LINQ
 - [ ] Timer
-
--Alternativ können hier je nach Zeit und Teilnehmerbedarf auch andere Themen (z.B. Deployment / Klassendiagramme) durchgenommen
-	oder evtl ein Abschlussprojekt durchgeführt werden (vgl. hierfür M016-(Alternativen)).
