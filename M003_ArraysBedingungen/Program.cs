@@ -44,4 +44,4 @@ else
 Console.WriteLine(zahl1 == zahl2 ? "Zahl1 gleich Zahl2" : (zahl1 < zahl2 ? "Zahl1 kleiner Zahl2" : "Zahl1 größer Zahl2"));
 #endregion
 
-LabLoesung.Execute();
+Lab.Execute();

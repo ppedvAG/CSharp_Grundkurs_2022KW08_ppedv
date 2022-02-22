@@ -1,4 +1,4 @@
-﻿public class LabLoesung
+﻿public class Lab
 {
 	public static void Execute()
     {
