@@ -29,11 +29,11 @@ Console.WriteLine(kostenDecimal);
 string umbruch = "Hallo ich bin \n ein string"; //\n = Zeilenumbruch
 Console.WriteLine(umbruch);
 
-string stringKombination = umbruch + "\t" + kostenDecimal; //$"{umbruch}\t{kostenDecimal}"
-Console.WriteLine(stringKombination);
-
 string str = "Test";
 Console.WriteLine("Platzhalter 0: {0}", str);
+
+string stringKombination = umbruch + "\t" + kostenDecimal; //$"{umbruch}\t{kostenDecimal}"
+Console.WriteLine(stringKombination);
 
 string stringInterpolation = $"Ein Code {kosten} {kosten * kostenFloat}"; //$ -> Code im String
 Console.WriteLine(stringInterpolation);
@@ -63,7 +63,7 @@ Console.WriteLine(convert);
 double eingabeDouble = double.Parse(eingabe); //Eingabe in Deutschland/Österreich mit ,
 Console.WriteLine(eingabeDouble);             //Außerhalb mit .
 
-bool boolParse = bool.Parse(eingabe);
+bool boolParse = bool.Parse(eingabe); //true, false
 Console.WriteLine(boolParse);
 #endregion
 
@@ -85,7 +85,7 @@ int zahl1 = 7; //Modulo (%): Gibt den Rest einer Division zurück
 int zahl2 = 3;
 Console.WriteLine(zahl1 % zahl2);
 
-zahl1++;
+zahl1++; //zahl1 += 1;
 zahl1 = zahl1 + zahl2;
 zahl1 += zahl2; //Berechnung mit direkter Zuweisung, Ergebnis wird in zahl1 geschrieben
 Console.WriteLine(zahl1 + zahl2);
