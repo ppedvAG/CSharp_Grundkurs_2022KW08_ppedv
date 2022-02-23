@@ -6,10 +6,6 @@ namespace Fahrzeughandel //Namespaces dienen zur Gruppierung von Klassen
 	{
 		private Fahrzeug fzg { get; set; } //get; set; -> Neue Schreibweise von Get und Set Methoden
 		private Audi.Sportwagen.Sportwagen spw; //Klasse aus einem anderen Namespace
-
-		public static void Main(string[] args) 
-		{
-		}
 		
 		/* Veraltet
 		public Fahrzeug GetFahrzeug()
@@ -27,7 +23,7 @@ namespace Fahrzeughandel //Namespaces dienen zur Gruppierung von Klassen
 
 namespace Audi
 {
-	public class Fahrzeug 
+	public class Fahrzeug
 	{
 		public void Fahre() { }
 	}
