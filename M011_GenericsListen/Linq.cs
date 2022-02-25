@@ -1,6 +1,4 @@
-﻿using static M011_GenericsListen.Linq.Fahrzeug;
-
-namespace M011_GenericsListen;
+﻿namespace M011_GenericsListen;
 
 public class Linq
 {
@@ -45,20 +43,19 @@ public class Linq
 			new Fahrzeug(210, FahrzeugMarke.Audi)
 		};
 
-		#region BMWs filtern mit Schleife
+		#region Vergleich Linq Schreibweisen
+		//Schleifenform um alle BMWs zurückzugeben
 		List<Fahrzeug> bmwsForEach = new List<Fahrzeug>();
 		foreach (Fahrzeug auto in fahrzeuge)
 			if (auto.Marke == FahrzeugMarke.BMW)
 				bmwsForEach.Add(auto);
-		#endregion
 
-		#region BMWs filtern mit SQL-Schreibweise
+		//Standard Linq: SQL-ähnliche Schreibweise (alt, Methode darunter bevorzugen)
 		List<Fahrzeug> bmws =  (from auto in fahrzeuge 
 								where auto.Marke == FahrzeugMarke.BMW
 								select auto).ToList(); //Für ToList() keine eigene Funktionalität
-		#endregion
 
-		#region BMWs filtern mit Methodenketten
+		//Methodenkette: Neueste Schreibweise, kürzer, übersichtlicher
 		List<Fahrzeug> bmwsNeu = fahrzeuge.Where(auto => auto.Marke == FahrzeugMarke.BMW).ToList();
 		#endregion
 
@@ -138,12 +135,12 @@ public class Linq
 			MaxGeschwindigkeit = v;
 			Marke = fm;
 		}
+	}
 
-		public enum FahrzeugMarke
-		{
-			BMW,
-			Audi,
-			VW
-		}
+	public enum FahrzeugMarke
+	{
+		BMW,
+		Audi,
+		VW
 	}
 }

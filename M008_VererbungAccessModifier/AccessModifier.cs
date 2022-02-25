@@ -49,8 +49,8 @@
 		{
 			Mensch m = new Mensch("Herbert", 34);
 			m.PrintStatus();
-			m.PrivateVariable = ""; //Nicht möglich da private
-			m.Lieblingsnahrung = ""; //Nicht möglich da protected
+			//m.PrivateVariable = ""; //Nicht möglich da private
+			//m.Lieblingsnahrung = ""; //Nicht möglich da protected
 		}
 	}
 }
