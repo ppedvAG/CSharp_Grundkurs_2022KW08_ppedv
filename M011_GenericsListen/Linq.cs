@@ -12,6 +12,8 @@ public class Linq
 		Random rand = new Random();
 		linqTest = linqTest.OrderBy(x => rand.Next()).ToList(); //Liste mischen
 
+		linqTest = linqTest.Shuffle().ToList(); //Liste mischen mit Erweiterungsmethode
+
 		Console.WriteLine(linqTest.Average());
 		Console.WriteLine(linqTest.Min());
 		Console.WriteLine(linqTest.Max());
